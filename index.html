@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForFun</title>
+    <link rel="stylesheet" href="./ASSETS/CSS/index.css">
+</head>
+<body>
+    <!-- Bắt đầu phần header và thanh điều hướng -->
+    <div id="header" class="darkmode">
+        <a class="brand darkmode" href="./index.html">For fun</a>
+        <div id="main-nav_container">   
+            <div id="main-nav">
+                <a href="#about-us">About</a>
+                <div class="dropdown">
+                    <div class="dropdown-btn"><a href="#gallery">Gallery</a></div>
+                    <div class="dropdown-content">
+                        <a href="#girl">Girl</a>
+                        <a href="#anime">Anime</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div id="account">
+            <input type="checkbox" name="" id="login-btn">
+            <label for="login-btn" class="far fa-user-circle fa-2x"></label>
+            <!-- Start mobile-main-nav for Mobile and Tablet -->
+            <input type="checkbox" name="" id="mobile-open_main-nav">          
+            <label for="mobile-open_main-nav" class="fas fa-bars fa-2x"></label>
+            <label for="mobile-open_main-nav" class="tablet-overlay"></label>
+            <div id="mobile_main-nav">
+                <div id="mobile_main-nav_header">
+                    <label for="mobile-open_main-nav" class="fas fa-chevron-right fa-2x"></label>
+                </div>
+                <div id="mobile_main-nav-content" class="darkmode">
+                    <div class="mobile-nav_first">
+                        <a href="#about-us">About</a>
+                        <a href="">Light Novel</a>
+                        <input type="checkbox" name="" id="mobile-nav_2nd">
+                        <label for="mobile-nav_2nd" class="mobile-nav_2nd"><a>Gallery</a><i class="fas fa-chevron-right"></i></label>
+                        <div class="mobile-nav_2nd_child">
+                            <a>Girl - 2D</a>
+                            <a>Anime</a>
+                        </div>                    
+                    </div>
+                    <div class="line-break"></div>
+                    <div class="mobile-nav_second">
+                        <div></div>
+                        <a href="./html/register.html">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End mobile-main-nav for Mobile and Tablet-->
+            <label for="login-btn" class="overlay"></label>
+            <!-- Khung log in -->
+            <div id="account-container">
+                <div id="account-content">
+                    <h3>Login<label for="login-btn" class="far fa-times-circle"></label></h3>
+                    <form>
+                        <div><i class="fas fa-user fa-2x"></i><input type="text" name="" id="user-name_email" placeholder="User Name or Email Address" required></div>
+                        <div><i class="fas fa-lock fa-2x"></i><input type="password" name="" id="user-password" placeholder="Password" required></div>
+                        <div><input type="submit" value="Login"></div>
+                    </form>
+                    <div>OR</div>
+                    <div class="login-with">
+                        <i class="fab fa-google fa-2x"></i><i class="fab fa-facebook-square fa-2x"></i><i class="fab fa-instagram fa-2x"></i><i class="fab fa-reddit-square fa-2x"></i><i class="fab fa-twitter fa-2x"></i>
+                    </div>
+                    <div class="go-to-register"><a href="./html/register.html">Don't have account? Sign up now!!</a></div>
+                </div>
+            </div>   
+            <!-- Kết thúc khung log in -->
+        </div>
+    </div>
+    <!-- Kết thúc phần header và thanh điều hướng -->
+    <div id="page-container">
+        <img id="heading-img" src="./ASSETS/IMG/Nhà có 5 nàng dâu.jpg" alt="image heading">  
+        <div id="about-us" class="section">
+            <h2 class="heading">About Us</h2>
+            <div class="content">
+                <div class="col-half">
+                    <dl>
+                        <dd>Ngày thành lập:</dd>
+                        <dt>28/01/2022</dt>
+                        <dd>Mục đích:</dd>
+                        <dt>Thử nghiệm một số tính năng cho website</dt>
+                        <dt>Giải trí</dt>
+                        <dd>Nội dung:</dd>
+                        <dt>Là bộ sưu tập ảnh, cung cấp info, ...</dt>
+                        <dt>Có thể là về anime, manga, phim ảnh, người nổi tiếng, ...</dt>
+                        <dt>Có thể sẽ chứa một vài nội dung nhạy cảm, người lớn, ...</dt>
+                    </dl>
+                </div>
+                <div class="col-half">
+                    <dl>
+                        <dd>Thành viên đóng góp:</dd>
+                        <dt>SunnyBiolie</dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="gallery" class="section">
+            <h2 class="heading">Gallery</h2>
+                <div id="girl" class="gallery-info">
+                    <div class="gallery-thumbnails">
+                        <img src="./ASSETS/IMG/Thumnails/girl-zero.jpg" alt="Girl">
+                        <p class="tit">Girl</p>
+                    </div>
+                    <div class="gallery-content">
+                        <div class="gallery-child">
+                            <a href=""><img class="thumbnails" src="./ASSETS/IMG/Thumnails/beauty-zero.jpg" alt="Beautiful girl"></a>
+                            <a class="tit" href="#">Xinh</a>
+                        </div>
+                        <div class="gallery-child">
+                            <a href=""><img class="thumbnails" src="./ASSETS/IMG/Thumnails/cosplay-zero.jpg" alt="Cosplay"></a>
+                            <a class="tit" href="#">Cosplay</a>
+                        </div>
+                        <div class="gallery-child">
+                            <a href=""><img class="thumbnails" src="./ASSETS/IMG/Thumnails/sexy-zero.jpg" alt="Sexy girl"></a>
+                            <a class="tit" href="">Sexy</a>
+                        </div>
+                        <div class="gallery-child">
+                            <a href=""><img class="thumbnails" src="./ASSETS/IMG/Thumnails/bikini-zero.jpg" alt="Bikini girl"></a>
+                            <a class="tit" href="">Bikini</a>
+                        </div>
+                        <div class="gallery-child">
+                            <a href=""><img class="thumbnails" src="./ASSETS/IMG/Thumnails/sleep-wear-zero.jpg" alt="Đồ ngủ"></a>
+                            <a class="tit" href="">Error</a>
+                        </div>
+                        <!-- Tạo label "more" -->
+                        <div class="gallery-child">
+                            <input type="checkbox" name="" id="gallery-girl_more">
+                            <label for="gallery-girl_more" class="overlay"></label>
+                            <label for="gallery-girl_more"><img class="thumbnails" src="https://icon-library.com/images/icon-add/icon-add-0.jpg" alt="Đồ ngủ"></label>
+                            <label for="gallery-girl_more" class="tit">More</label>
+                            <div class="gallery_more">
+                                <div class="gallery-child_more">
+                                    <a href="#"><img src="./ASSETS/IMG/Thumnails/beauty-zero.jpg" alt="Beautiful girl"></a>
+                                    <a class="tit" href="#">Xinh</a>
+                                </div>
+                                <div class="gallery-child_more">
+                                    <a href=""><img src="./ASSETS/IMG/Thumnails/cosplay-zero.jpg" alt="Cosplay"></a>
+                                    <a class="tit" href="#">Cosplay</a>
+                                </div>
+                                <div class="gallery-child_more">
+                                    <a href=""><img src="./ASSETS/IMG/Thumnails/sexy-zero.jpg" alt="Sexy girl"></a>
+                                    <a class="tit" href="">Sexy</a>
+                                </div>
+                                <div class="gallery-child_more">
+                                    <a href=""><img src="./ASSETS/IMG/Thumnails/bikini-zero.jpg" alt="Bikini girl"></a>
+                                    <a class="tit" href="">Bikini</a>
+                                </div>
+                                <div class="gallery-child_more">
+                                    <a href=""><img src="./ASSETS/IMG/Thumnails/sleep-wear-zero.jpg" alt="Đồ ngủ"></a>
+                                    <a class="tit" href="">Error</a>
+                                </div>
+                                <div class="gallery-child_more">
+                                    <a href=""><img src="./ASSETS/IMG/Thumnails/girl-aodai-zero.jpg" alt="Girl áo dài"></a>
+                                    <a class="tit" href="">Áo Dài</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Kết thúc tạo "more" -->
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/4959f7b855.js" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/main.js"></script>
+    <script>
+
+    </script>
+</body>
+</html>
