@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Raleway, Noto Serif, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+#header {
+    position: fixed;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 4px;
+    padding: 0 12px;
+    z-index: 2;
+    .brand {
+        display: inline-block;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 12px 30px 12px 18px;
+    }
+}
+#main-nav {
+    position: relative;
+    top: -12px;
+    a {
+        display: inline-block;
+        text-decoration: none;
+        line-height: 60px;
+        color: white;
+        background-color: black;
+        padding: 0 8px;
+        margin-left: -6px;
+        :hover {
+            color: #000;
+            background-color: #fff;
+        }
+    }
+}

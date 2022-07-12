@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./test.css">
+</head>
+<body>
+    <div id="header" class="darkmode">
+        <a class="brand darkmode" href="./index.html">For fun</a>
+        <div id="main-nav_container">   
+            <div id="main-nav">
+                <a href="#about-us">About</a>
+                <div class="dropdown">
+                    <div class="dropdown-btn"><a href="#gallery">Gallery</a></div>
+                    <div class="dropdown-content">
+                        <a href="#girl">Girl</a>
+                        <a href="#anime">Anime</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div id="account">
+            <input type="checkbox" name="" id="login-btn">
+            <label for="login-btn" class="far fa-user-circle fa-2x"></label>
+            <!-- Start mobile-main-nav for Mobile and Tablet -->
+            <input type="checkbox" name="" id="mobile-open_main-nav">          
+            <label for="mobile-open_main-nav" class="fas fa-bars fa-2x"></label>
+            <label for="mobile-open_main-nav" class="tablet-overlay"></label>
+            <div id="mobile_main-nav">
+                <div id="mobile_main-nav_header">
+                    <label for="mobile-open_main-nav" class="fas fa-chevron-right fa-2x"></label>
+                </div>
+                <div id="mobile_main-nav-content" class="darkmode">
+                    <div class="mobile-nav_first">
+                        <a href="#about-us">About</a>
+                        <a href="">Light Novel</a>
+                        <input type="checkbox" name="" id="mobile-nav_2nd">
+                        <label for="mobile-nav_2nd" class="mobile-nav_2nd"><a>Gallery</a><i class="fas fa-chevron-right"></i></label>
+                        <div class="mobile-nav_2nd_child">
+                            <a>Girl</a>
+                            <a>Anime</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="line-break"></div>
+                    <div class="mobile-nav_second">
+                        <div></div>
+                        <a href="./register.html">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End mobile-main-nav for Mobile and Tablet-->
+            <label for="login-btn" class="overlay"></label>
+            <!-- Khung log in -->
+            <div id="account-container">
+                <div id="account-content">
+                    <h3>Login<label for="login-btn" class="far fa-times-circle"></label></h3>
+                    <form>
+                        <div><i class="fas fa-user fa-2x"></i><input type="text" name="" id="user-name_email" placeholder="User Name or Email Address" required></div>
+                        <div><i class="fas fa-lock fa-2x"></i><input type="password" name="" id="user-password" placeholder="Password" required></div>
+                        <div><input type="submit" value="Login"></div>
+                    </form>
+                    <div>OR</div>
+                    <div class="login-with">
+                        <i class="fab fa-google fa-2x"></i><i class="fab fa-facebook-square fa-2x"></i><i class="fab fa-instagram fa-2x"></i><i class="fab fa-reddit-square fa-2x"></i><i class="fab fa-twitter fa-2x"></i>
+                        <a href="./user-account.html"><i class="fas fa-id-card fa-2x"></i></a>
+                    </div>
+                    <div class="go-to-register"><a href="./register.html">Don't have account? Sign up now!!</a></div>
+                </div>
+            </div>   
+            <!-- Kết thúc khung log in -->
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/4959f7b855.js" crossorigin="anonymous"></script>
+</body>
+</html>
